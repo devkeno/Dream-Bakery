@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": "c111cab3-a32e-4a43-a042-6366432558b4",
+      "username": "TestUser",
+      "password": "TestUser"
+    },
+    {
+      "id": "c111cab3-a45e-4a43-a042-6366432558b4",
+      "username": "TestUser2",
+      "password": "TestUser2"
+    },
+    {
+      "id": "c111cab3-a11e-4a43-a042-6366432558b4",
+      "username": "TestUser3",
+      "password": "TestUser3"
+    }
+  ],
+  "rawMaterials": [
+    {
+      "id": 1,
+      "name": "Eggs",
+      "price": "image"
+    },
+    {
+      "id": 2,
+      "name": "Salt",
+      "price": "image"
+    },
+    {
+      "id": 3,
+      "name": "Sugar",
+      "price": "image"
+    },
+    {
+      "id": 4,
+      "name": "Olive oil",
+      "price": "image"
+    },
+    {
+      "id": 5,
+      "name": "Fresh yeast",
+      "price": "image"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "c111cab3-abfe-4a43-a042-6366432558b4",
+      "rawMaterial": "Salt",
+      "quantity": "200",
+      "name": "Recipe 1",
+      "unit": "Gram",
+      "isActive": true
+    },
+    {
+      "id": "cgfdfb3-abfe-4a43-a042-6366432558b4",
+      "rawMaterial": "Fresh yeast",
+      "quantity": 25,
+      "name": "Recipe 2",
+      "unit": "Gram",
+      "isActive": true
+    },
+    {
+      "id": "85fb6b9a-a45b-4f84-96ba-635aa37b5188",
+      "rawMaterial": "Sugar",
+      "quantity": "12",
+      "name": "Recipe 3",
+      "unit": "Mililiter",
+      "isActive": true
+    },
+    {
+      "id": "ba192e7e-70f7-477f-b61d-d83a8ad4a5d7",
+      "rawMaterial": "Olive oil",
+      "quantity": "5",
+      "name": "Recipe 99",
+      "unit": "Liter",
+      "isActive": true
+    },
+    {
+      "id": "14a80f0a-0107-41ea-9379-004e3101b8da",
+      "rawMaterial": "",
+      "quantity": "5",
+      "name": "Recipe 11",
+      "unit": "Kilogram",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "d93441da-49bd-458d-8d74-24789f9d3be0",
+      "name": "Tortilja Piletina",
+      "price": "12.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "85fb6b9a-a45b-4f84-96ba-635aa37b5188",
+      "recipeName": "",
+      "isActive": true
+    },
+    {
+      "id": "d441da-49bd-458d-8234-24789f9d3be0",
+      "name": "Pasta Bolognese",
+      "price": "14.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "caaafb3-abfe-4a43-a042-6366432558b4",
+      "recipeName": "Recipe 1",
+      "isActive": true
+    },
+    {
+      "id": "d4afc057-5d65-4891-a672-2a52c91a55fb",
+      "name": "Pizza Tuna",
+      "price": "29.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "85fb6b9a-a45b-4f84-96ba-635aa37b5188",
+      "recipeName": "",
+      "isActive": true
+    },
+    {
+      "id": "e8882eab-4dba-41f6-8916-dec7343bc62b",
+      "name": "Maslenica Piletina",
+      "price": "17.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "c111cab3-abfe-4a43-a042-6366432558b4",
+      "recipeName": "",
+      "isActive": true
+    },
+    {
+      "id": "130da390-241e-4cb8-b5d9-98d19cb34b93",
+      "name": "Pizza Toscana",
+      "price": "8.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "ba192e7e-70f7-477f-b61d-d83a8ad4a5d7",
+      "recipeName": "",
+      "isActive": true
+    },
+    {
+      "id": "0daa55c7-844e-486e-afd1-0df2eb32467c",
+      "name": "Pizza Sarajevo",
+      "price": "24.99",
+      "image": "https://pulses.org/nap/wp-content/uploads/2020/05/DSCF4822-2048x1365.jpg",
+      "recipeId": "cgfdfb3-abfe-4a43-a042-6366432558b4",
+      "recipeName": "",
+      "isActive": true
+    }
+  ]
+}
